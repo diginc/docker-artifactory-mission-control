@@ -1,7 +1,7 @@
 FROM frolvlad/alpine-oraclejdk8:slim
 
-ENV MC_VERSION 1.0
-ENV MC_SHA256 e202ac0d63682c41be166db2e3e6eaf9684db9101a52cb55b6910757096c5335
+ENV MC_VERSION 1.1
+ENV MC_SHA256 88f7774b0a54fcc6cf8c44cf5627d3e719b1d8b80f78cab0ab478182d414e29e
 
 RUN apk add --update bash wget ca-certificates && \
     wget -q -O jfrog-mission-control.zip https://bintray.com/artifact/download/jfrog/jfrog-mission-control/jfrog-mission-control-$MC_VERSION.zip?agree=true && \
