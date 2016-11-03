@@ -1,3 +1,6 @@
+### You probably shouldn't use this, JFrog provides official docker support now:
+**[https://bintray.com/jfrog/product/mission-control/download](https://bintray.com/jfrog/product/mission-control/download)**
+
 Alpine based jfrog-mission-control docker container
 
 # Environment customization and folders
